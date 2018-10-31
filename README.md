@@ -1,2 +1,3 @@
 # learn
-learch thing
+learch things
+do things
