@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LearnEverythingApplication {
 
 	public static void main(String[] args) {
-		System.out.println("-----");
+		System.out.println("----1-");
 		SpringApplication.run(LearnEverythingApplication.class, args);
 	}
 }
