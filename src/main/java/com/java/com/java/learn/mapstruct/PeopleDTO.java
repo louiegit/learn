@@ -11,15 +11,21 @@ import lombok.Data;
 @Data
 public class PeopleDTO {
 
-    public PeopleDTO(String phoneNumber, String address, String emile, User user) {
-        this.phoneNumber = phoneNumber;
-        this.address = address;
-        this.emile = emile;
-        this.user = user;
+    public PeopleDTO() {
     }
 
-    private String phoneNumber;
+    public PeopleDTO(Integer age, String name, String callNumber, String address,
+        String emile) {
+        this.age = age;
+        this.name = name;
+        this.callNumber = callNumber;
+        this.address = address;
+        this.emile = emile;
+    }
+
+    private Integer age;
+    private String name;
+    private String callNumber;
     private String address;
     private String emile;
-    private User  user;
 }
